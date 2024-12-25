@@ -1,0 +1,2527 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: Premium|广台|IEPL|01, server: pr3.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广台|IEPL|02, server: pr3.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广台|IEPL|03, server: pr3.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广台|IEPL|04, server: pr3.jymzffbquawl.com, port: 3056, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广新|IEPL|01, server: pr3.jymzffbquawl.com, port: 6606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广新|IEPL|02, server: pr3.jymzffbquawl.com, port: 6607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广新|IEPL|03, server: pr3.jymzffbquawl.com, port: 6608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广新|IEPL|04, server: pr3.jymzffbquawl.com, port: 6609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|01, server: pr3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|02, server: pr3.jymzffbquawl.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|03, server: pr3.jymzffbquawl.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|04, server: pr3.jymzffbquawl.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|05, server: pr3.jymzffbquawl.com, port: 4604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|06, server: pr3.jymzffbquawl.com, port: 4605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|07, server: pr3.jymzffbquawl.com, port: 4606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|08, server: pr3.jymzffbquawl.com, port: 4607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|09, server: pr3.jymzffbquawl.com, port: 4608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广日|IEPL|10, server: pr3.jymzffbquawl.com, port: 4609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|01, server: pr1.jymzffbquawl.com, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|02, server: pr1.jymzffbquawl.com, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|03, server: pr1.jymzffbquawl.com, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|04, server: pr1.jymzffbquawl.com, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|05, server: pr1.jymzffbquawl.com, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|06, server: pr1.jymzffbquawl.com, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|07, server: pr1.jymzffbquawl.com, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|08, server: pr1.jymzffbquawl.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|09, server: pr1.jymzffbquawl.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广港|IEPL|10, server: pr1.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广美|IEPL|01, server: pr3.jymzffbquawl.com, port: 5608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广美|IEPL|02, server: pr3.jymzffbquawl.com, port: 5609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广美|IEPL|03, server: pr3.jymzffbquawl.com, port: 5610, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Premium|广美|IEPL|04, server: pr3.jymzffbquawl.com, port: 5611, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广台|IEPL|01, server: bs3.jymzffbquawl.com, port: 3026, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广台|IEPL|02, server: bs3.jymzffbquawl.com, port: 3036, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广台|IEPL|03, server: bs3.jymzffbquawl.com, port: 3046, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广台|IEPL|04, server: bs3.jymzffbquawl.com, port: 3056, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|01, server: bs3.jymzffbquawl.com, port: 6600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|02, server: bs3.jymzffbquawl.com, port: 6601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|03, server: bs3.jymzffbquawl.com, port: 6602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|04, server: bs3.jymzffbquawl.com, port: 6603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|05, server: bs3.jymzffbquawl.com, port: 6604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广新|IEPL|06, server: bs3.jymzffbquawl.com, port: 6605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|01, server: bs3.jymzffbquawl.com, port: 4600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|02, server: bs3.jymzffbquawl.com, port: 4601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|03, server: bs3.jymzffbquawl.com, port: 4602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|04, server: bs3.jymzffbquawl.com, port: 4603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|05, server: bs3.jymzffbquawl.com, port: 4604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|06, server: bs3.jymzffbquawl.com, port: 4605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|07, server: bs3.jymzffbquawl.com, port: 4606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|08, server: bs3.jymzffbquawl.com, port: 4607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|09, server: bs3.jymzffbquawl.com, port: 4608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广日|IEPL|10, server: bs3.jymzffbquawl.com, port: 4609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|01, server: bs1.jymzffbquawl.com, port: 3600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|02, server: bs1.jymzffbquawl.com, port: 3601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|03, server: bs1.jymzffbquawl.com, port: 3602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|04, server: bs1.jymzffbquawl.com, port: 3603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|05, server: bs1.jymzffbquawl.com, port: 3604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|06, server: bs1.jymzffbquawl.com, port: 3605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|07, server: bs1.jymzffbquawl.com, port: 3606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|08, server: bs1.jymzffbquawl.com, port: 3607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|09, server: bs1.jymzffbquawl.com, port: 3608, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广港|IEPL|10, server: bs1.jymzffbquawl.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广美|IEPL|01, server: bs3.jymzffbquawl.com, port: 5600, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广美|IEPL|02, server: bs3.jymzffbquawl.com, port: 5601, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广美|IEPL|03, server: bs3.jymzffbquawl.com, port: 5602, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广美|IEPL|04, server: bs3.jymzffbquawl.com, port: 5603, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广美|IEPL|05, server: bs3.jymzffbquawl.com, port: 5604, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广美|IEPL|06, server: bs3.jymzffbquawl.com, port: 5605, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广美|IEPL|07, server: bs3.jymzffbquawl.com, port: 5606, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: Standard|广美|IEPL|08, server: bs3.jymzffbquawl.com, port: 5607, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: 海外用户专用-新加坡, server: f-sg-01.ninjanode.pro, port: 63257, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: 海外用户专用-日本, server: f-jp-01.ninjanode.pro, port: 63257, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+  - {name: 海外用户专用-美国, server: f-us-01.ninjanode.pro, port: 63257, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 90bbc210369.microsoft.com}, udp: true}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - ♻️ 自动选择
+      - 🚀 手动切换
+  - name: 🚀 手动切换
+    type: select
+    proxies:
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🚀 GitHub
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+  - name: 📲 Telegram
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+  - name: 🕊️ Twitter(X)
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 💬 ChatGPT
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 💬 Copilot
+    type: select
+    proxies:
+      - 🇺🇸 美国节点
+      - 🇭🇰 香港节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🤖 AI服务
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🎶 TikTok
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 📹 YouTube
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🎥 Netflix
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🎥 DisneyPlus
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🎥 HBO
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🎥 PrimeVideo
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🎥 Emby
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🎻 Spotify
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 📺 Bahamut
+    type: select
+    proxies:
+      - 🇹🇼 台湾节点
+      - 🚀 节点选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+  - name: 🎶 网易音乐
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 📺 国内媒体
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇹🇼 台湾节点
+      - 🇭🇰 香港节点
+  - name: 🌎 国外媒体
+    type: select
+    proxies:
+      - 🇸🇬 新加坡节点
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🛒 国外电商
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+  - name: 🇬 谷歌服务
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+  - name: 🍘️ 小米服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+  - name: 🎮 游戏平台
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+  - name: 🎮 Steam
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🚀 测速工具
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🇭🇰 香港节点
+      - 🇺🇸 美国节点
+      - 🇯🇵 日本节点
+      - 🇸🇬 新加坡节点
+      - 🇹🇼 台湾节点
+      - 🇰🇷 韩国节点
+      - 🇨🇦 加拿大节点
+      - 🇬🇧 英国节点
+      - 🇫🇷 法国节点
+      - 🇩🇪 德国节点
+      - 🇳🇱 荷兰节点
+      - 🇹🇷 土耳其节点
+      - 🇻🇳 越南节点
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🚀 手动切换
+      - 🎯 全球直连
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Premium|广新|IEPL|01
+      - Premium|广新|IEPL|02
+      - Premium|广新|IEPL|03
+      - Premium|广新|IEPL|04
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+      - Standard|广新|IEPL|01
+      - Standard|广新|IEPL|02
+      - Standard|广新|IEPL|03
+      - Standard|广新|IEPL|04
+      - Standard|广新|IEPL|05
+      - Standard|广新|IEPL|06
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-新加坡
+      - 海外用户专用-日本
+      - 海外用户专用-美国
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - Premium|广港|IEPL|01
+      - Premium|广港|IEPL|02
+      - Premium|广港|IEPL|03
+      - Premium|广港|IEPL|04
+      - Premium|广港|IEPL|05
+      - Premium|广港|IEPL|06
+      - Premium|广港|IEPL|07
+      - Premium|广港|IEPL|08
+      - Premium|广港|IEPL|09
+      - Premium|广港|IEPL|10
+      - Standard|广港|IEPL|01
+      - Standard|广港|IEPL|02
+      - Standard|广港|IEPL|03
+      - Standard|广港|IEPL|04
+      - Standard|广港|IEPL|05
+      - Standard|广港|IEPL|06
+      - Standard|广港|IEPL|07
+      - Standard|广港|IEPL|08
+      - Standard|广港|IEPL|09
+      - Standard|广港|IEPL|10
+  - name: 🇺🇸 美国节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - Premium|广美|IEPL|01
+      - Premium|广美|IEPL|02
+      - Premium|广美|IEPL|03
+      - Premium|广美|IEPL|04
+      - Standard|广美|IEPL|01
+      - Standard|广美|IEPL|02
+      - Standard|广美|IEPL|03
+      - Standard|广美|IEPL|04
+      - Standard|广美|IEPL|05
+      - Standard|广美|IEPL|06
+      - Standard|广美|IEPL|07
+      - Standard|广美|IEPL|08
+      - 海外用户专用-美国
+  - name: 🇯🇵 日本节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - Premium|广日|IEPL|01
+      - Premium|广日|IEPL|02
+      - Premium|广日|IEPL|03
+      - Premium|广日|IEPL|04
+      - Premium|广日|IEPL|05
+      - Premium|广日|IEPL|06
+      - Premium|广日|IEPL|07
+      - Premium|广日|IEPL|08
+      - Premium|广日|IEPL|09
+      - Premium|广日|IEPL|10
+      - Standard|广日|IEPL|01
+      - Standard|广日|IEPL|02
+      - Standard|广日|IEPL|03
+      - Standard|广日|IEPL|04
+      - Standard|广日|IEPL|05
+      - Standard|广日|IEPL|06
+      - Standard|广日|IEPL|07
+      - Standard|广日|IEPL|08
+      - Standard|广日|IEPL|09
+      - Standard|广日|IEPL|10
+      - 海外用户专用-日本
+  - name: 🇸🇬 新加坡节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 海外用户专用-新加坡
+  - name: 🇹🇼 台湾节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - Premium|广台|IEPL|01
+      - Premium|广台|IEPL|02
+      - Premium|广台|IEPL|03
+      - Premium|广台|IEPL|04
+      - Standard|广台|IEPL|01
+      - Standard|广台|IEPL|02
+      - Standard|广台|IEPL|03
+      - Standard|广台|IEPL|04
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇨🇦 加拿大节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇬🇧 英国节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇫🇷 法国节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇩🇪 德国节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇳🇱 荷兰节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇹🇷 土耳其节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+  - name: 🇻🇳 越南节点
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - DIRECT
+rules:
+  - RULE-SET,Lan,🎯 全球直连
+  - RULE-SET,Direct,🎯 全球直连
+  - RULE-SET,Custom_Direct,🎯 全球直连
+  - RULE-SET,Custom_Proxy,🚀 节点选择
+  - RULE-SET,GoogleFCM,📢 谷歌FCM
+  - RULE-SET,GoogleCN,🎯 全球直连
+  - RULE-SET,GoogleCNProxyIP,🚀 节点选择
+  - RULE-SET,SteamCN,🎯 全球直连
+  - RULE-SET,Steam_CDN,🎯 全球直连
+  - RULE-SET,PrivateTracker,🎯 全球直连
+  - RULE-SET,Telegram,📲 Telegram
+  - RULE-SET,Twitter,🕊️ Twitter(X)
+  - RULE-SET,OpenAI,💬 ChatGPT
+  - RULE-SET,Copilot,💬 Copilot
+  - RULE-SET,Claude,🤖 AI服务
+  - RULE-SET,Gemini,🤖 AI服务
+  - RULE-SET,GitHub,🚀 GitHub
+  - RULE-SET,Speedtest,🚀 测速工具
+  - RULE-SET,Apple,🍎 苹果服务
+  - RULE-SET,Microsoft,Ⓜ️ 微软服务
+  - RULE-SET,YouTube,📹 YouTube
+  - RULE-SET,Google,🇬 谷歌服务
+  - RULE-SET,XiaoMi,🍘️ 小米服务
+  - RULE-SET,TikTok,🎶 TikTok
+  - RULE-SET,Netflix,🎥 Netflix
+  - RULE-SET,Disney,🎥 DisneyPlus
+  - RULE-SET,HBO,🎥 HBO
+  - RULE-SET,AmazonPrimeVideo,🎥 PrimeVideo
+  - RULE-SET,Emby,🎥 Emby
+  - RULE-SET,Emby_2,🎥 Emby
+  - RULE-SET,Spotify,🎻 Spotify
+  - RULE-SET,Bahamut,📺 Bahamut
+  - RULE-SET,NetEaseMusic,🎶 网易音乐
+  - RULE-SET,ChinaMedia,📺 国内媒体
+  - RULE-SET,GlobalMedia,🌎 国外媒体
+  - RULE-SET,Amazon,🛒 国外电商
+  - RULE-SET,AmazonIP,🛒 国外电商
+  - RULE-SET,Shopee,🛒 国外电商
+  - RULE-SET,Shopify,🛒 国外电商
+  - RULE-SET,Ozon,🛒 国外电商
+  - RULE-SET,Epic,🎮 游戏平台
+  - RULE-SET,EA,🎮 游戏平台
+  - RULE-SET,Blizzard,🎮 游戏平台
+  - RULE-SET,UBI,🎮 游戏平台
+  - RULE-SET,Sony,🎮 游戏平台
+  - RULE-SET,Nintendo,🎮 游戏平台
+  - RULE-SET,Steam,🎮 Steam
+  - RULE-SET,ProxyGFWlist,🚀 节点选择
+  - RULE-SET,ChinaDomain,🎯 全球直连
+  - RULE-SET,ChinaCompanyIp,🎯 全球直连
+  - RULE-SET,ChinaIp,🎯 全球直连
+  - RULE-SET,Download,🎯 全球直连
+  - GEOSITE,category-public-tracker,🎯 全球直连
+  - GEOIP,LAN,🎯 全球直连,no-resolve
+  - GEOIP,CN,🎯 全球直连,no-resolve
+  - MATCH,🐟 漏网之鱼
+rule-providers:
+  Lan:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvTGFuL0xhbi5saXN0
+    path: ./providers/rule-provider_Lan.yaml
+    interval: 86400
+  Direct:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvRGlyZWN0L0RpcmVjdC5saXN0
+    path: ./providers/rule-provider_Direct.yaml
+    interval: 86400
+  Custom_Direct:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlcnNhaWxvci9DdXN0b21fT3BlbkNsYXNoX1J1bGVzL21haW4vcnVsZS9DdXN0b21fRGlyZWN0Lmxpc3Q
+    path: ./providers/rule-provider_Custom_Direct.yaml
+    interval: 86400
+  Custom_Proxy:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlcnNhaWxvci9DdXN0b21fT3BlbkNsYXNoX1J1bGVzL21haW4vcnVsZS9DdXN0b21fUHJveHkubGlzdA
+    path: ./providers/rule-provider_Custom_Proxy.yaml
+    interval: 86400
+  GoogleFCM:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvR29vZ2xlRkNNL0dvb2dsZUZDTS5saXN0
+    path: ./providers/rule-provider_GoogleFCM.yaml
+    interval: 86400
+  GoogleCN:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvR29vZ2xlQ04ubGlzdA
+    path: ./providers/rule-provider_GoogleCN.yaml
+    interval: 86400
+  GoogleCNProxyIP:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUnVsZXNldC9Hb29nbGVDTlByb3h5SVAubGlzdA
+    path: ./providers/rule-provider_GoogleCNProxyIP.yaml
+    interval: 86400
+  SteamCN:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvU3RlYW1DTi9TdGVhbUNOLmxpc3Q
+    path: ./providers/rule-provider_SteamCN.yaml
+    interval: 86400
+  Steam_CDN:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlcnNhaWxvci9DdXN0b21fT3BlbkNsYXNoX1J1bGVzL21haW4vcnVsZS9TdGVhbV9DRE4ubGlzdA
+    path: ./providers/rule-provider_Steam_CDN.yaml
+    interval: 86400
+  PrivateTracker:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvUHJpdmF0ZVRyYWNrZXIvUHJpdmF0ZVRyYWNrZXIubGlzdA
+    path: ./providers/rule-provider_PrivateTracker.yaml
+    interval: 86400
+  Telegram:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvVGVsZWdyYW0vVGVsZWdyYW0ubGlzdA
+    path: ./providers/rule-provider_Telegram.yaml
+    interval: 86400
+  Twitter:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvVHdpdHRlci9Ud2l0dGVyLmxpc3Q
+    path: ./providers/rule-provider_Twitter.yaml
+    interval: 86400
+  OpenAI:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvT3BlbkFJL09wZW5BSS5saXN0
+    path: ./providers/rule-provider_OpenAI.yaml
+    interval: 86400
+  Copilot:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvQ29waWxvdC9Db3BpbG90Lmxpc3Q
+    path: ./providers/rule-provider_Copilot.yaml
+    interval: 86400
+  Claude:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvcmVmcy9oZWFkcy9tYXN0ZXIvcnVsZS9DbGFzaC9DbGF1ZGUvQ2xhdWRlLmxpc3Q
+    path: ./providers/rule-provider_Claude.yaml
+    interval: 86400
+  Gemini:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvcmVmcy9oZWFkcy9tYXN0ZXIvcnVsZS9DbGFzaC9HZW1pbmkvR2VtaW5pLmxpc3Q
+    path: ./providers/rule-provider_Gemini.yaml
+    interval: 86400
+  GitHub:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvR2l0SHViL0dpdEh1Yi5saXN0
+    path: ./providers/rule-provider_GitHub.yaml
+    interval: 86400
+  Speedtest:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvU3BlZWR0ZXN0L1NwZWVkdGVzdC5saXN0
+    path: ./providers/rule-provider_Speedtest.yaml
+    interval: 86400
+  Apple:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvQXBwbGUvQXBwbGUubGlzdA
+    path: ./providers/rule-provider_Apple.yaml
+    interval: 86400
+  Microsoft:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvTWljcm9zb2Z0L01pY3Jvc29mdC5saXN0
+    path: ./providers/rule-provider_Microsoft.yaml
+    interval: 86400
+  YouTube:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvWW91VHViZS9Zb3VUdWJlLmxpc3Q
+    path: ./providers/rule-provider_YouTube.yaml
+    interval: 86400
+  Google:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvR29vZ2xlL0dvb2dsZS5saXN0
+    path: ./providers/rule-provider_Google.yaml
+    interval: 86400
+  XiaoMi:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvWGlhb01pL1hpYW9NaS5saXN0
+    path: ./providers/rule-provider_XiaoMi.yaml
+    interval: 86400
+  TikTok:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvVGlrVG9rL1Rpa1Rvay5saXN0
+    path: ./providers/rule-provider_TikTok.yaml
+    interval: 86400
+  Netflix:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvTmV0ZmxpeC9OZXRmbGl4Lmxpc3Q
+    path: ./providers/rule-provider_Netflix.yaml
+    interval: 86400
+  Disney:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvRGlzbmV5L0Rpc25leS5saXN0
+    path: ./providers/rule-provider_Disney.yaml
+    interval: 86400
+  HBO:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvSEJPL0hCTy5saXN0
+    path: ./providers/rule-provider_HBO.yaml
+    interval: 86400
+  AmazonPrimeVideo:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvcmVmcy9oZWFkcy9tYXN0ZXIvcnVsZS9DbGFzaC9BbWF6b25QcmltZVZpZGVvL0FtYXpvblByaW1lVmlkZW8ubGlzdA
+    path: ./providers/rule-provider_AmazonPrimeVideo.yaml
+    interval: 86400
+  Emby:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvRW1ieS9FbWJ5Lmxpc3Q
+    path: ./providers/rule-provider_Emby.yaml
+    interval: 86400
+  Emby_2:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2RkZ2tzZjIwMTMvRmlsdGVyL3JlZnMvaGVhZHMvbWFzdGVyL0VtYnkubGlzdA
+    path: ./providers/rule-provider_Emby_2.yaml
+    interval: 86400
+  Spotify:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvU3BvdGlmeS9TcG90aWZ5Lmxpc3Q
+    path: ./providers/rule-provider_Spotify.yaml
+    interval: 86400
+  Bahamut:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvQmFoYW11dC9CYWhhbXV0Lmxpc3Q
+    path: ./providers/rule-provider_Bahamut.yaml
+    interval: 86400
+  NetEaseMusic:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvTmV0RWFzZU11c2ljL05ldEVhc2VNdXNpYy5saXN0
+    path: ./providers/rule-provider_NetEaseMusic.yaml
+    interval: 86400
+  ChinaMedia:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvQ2hpbmFNZWRpYS9DaGluYU1lZGlhLmxpc3Q
+    path: ./providers/rule-provider_ChinaMedia.yaml
+    interval: 86400
+  GlobalMedia:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvR2xvYmFsTWVkaWEvR2xvYmFsTWVkaWEubGlzdA
+    path: ./providers/rule-provider_GlobalMedia.yaml
+    interval: 86400
+  Amazon:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvcmVmcy9oZWFkcy9tYXN0ZXIvcnVsZS9DbGFzaC9BbWF6b24vQW1hem9uLmxpc3Q
+    path: ./providers/rule-provider_Amazon.yaml
+    interval: 86400
+  AmazonIP:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvcmVmcy9oZWFkcy9tYXN0ZXIvcnVsZS9DbGFzaC9BbWF6b25JUC9BbWF6b25JUC5saXN0
+    path: ./providers/rule-provider_AmazonIP.yaml
+    interval: 86400
+  Shopee:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvcmVmcy9oZWFkcy9tYXN0ZXIvcnVsZS9DbGFzaC9TaG9wZWUvU2hvcGVlLmxpc3Q
+    path: ./providers/rule-provider_Shopee.yaml
+    interval: 86400
+  Shopify:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvU2hvcGlmeS9TaG9waWZ5Lmxpc3Q
+    path: ./providers/rule-provider_Shopify.yaml
+    interval: 86400
+  Ozon:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FldGhlcnNhaWxvci9DdXN0b21fT3BlbkNsYXNoX1J1bGVzL3JlZnMvaGVhZHMvbWFpbi9ydWxlL096b24ubGlzdA
+    path: ./providers/rule-provider_Ozon.yaml
+    interval: 86400
+  Epic:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvRXBpYy9FcGljLmxpc3Q
+    path: ./providers/rule-provider_Epic.yaml
+    interval: 86400
+  EA:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvRUEvRUEubGlzdA
+    path: ./providers/rule-provider_EA.yaml
+    interval: 86400
+  Blizzard:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvQmxpenphcmQvQmxpenphcmQubGlzdA
+    path: ./providers/rule-provider_Blizzard.yaml
+    interval: 86400
+  UBI:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvVUJJL1VCSS5saXN0
+    path: ./providers/rule-provider_UBI.yaml
+    interval: 86400
+  Sony:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvU29ueS9Tb255Lmxpc3Q
+    path: ./providers/rule-provider_Sony.yaml
+    interval: 86400
+  Nintendo:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvTmludGVuZG8vTmludGVuZG8ubGlzdA
+    path: ./providers/rule-provider_Nintendo.yaml
+    interval: 86400
+  Steam:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvU3RlYW0vU3RlYW0ubGlzdA
+    path: ./providers/rule-provider_Steam.yaml
+    interval: 86400
+  ProxyGFWlist:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvUHJveHlHRldsaXN0Lmxpc3Q
+    path: ./providers/rule-provider_ProxyGFWlist.yaml
+    interval: 86400
+  ChinaDomain:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFEb21haW4ubGlzdA
+    path: ./providers/rule-provider_ChinaDomain.yaml
+    interval: 86400
+  ChinaCompanyIp:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFDb21wYW55SXAubGlzdA
+    path: ./providers/rule-provider_ChinaCompanyIp.yaml
+    interval: 86400
+  ChinaIp:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvQ2hpbmFJcC5saXN0
+    path: ./providers/rule-provider_ChinaIp.yaml
+    interval: 86400
+  Download:
+    type: http
+    behavior: classical
+    url: https://api.dler.io/getruleset?type=6&url=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsYWNrbWF0cml4Ny9pb3NfcnVsZV9zY3JpcHQvbWFzdGVyL3J1bGUvQ2xhc2gvRG93bmxvYWQvRG93bmxvYWQubGlzdA
+    path: ./providers/rule-provider_Download.yaml
+    interval: 86400

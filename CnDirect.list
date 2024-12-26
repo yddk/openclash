@@ -25,6 +25,10 @@ IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
 
 
+# mxvod
+DOMAIN-SUFFIX,mxvod.com
+
+
 # yuncai
 DOMAIN-SUFFIX,login.tfygcgfw.com
 DOMAIN-SUFFIX,scnyw.tfygcgfw.com

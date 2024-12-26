@@ -27,8 +27,22 @@ IP-CIDR,114.114.115.115/32,no-resolve
 
 # yuncai
 DOMAIN-SUFFIX,login.tfygcgfw.com
-DOMAIN-SUFFIX,hxyc.com.cn
+DOMAIN-SUFFIX,scnyw.tfygcgfw.com
 DOMAIN-SUFFIX,supplier.tfygcgfw.com
+DOMAIN-SUFFIX,tfygcgfw.com
+DOMAIN-SUFFIX,ybccb.tfygcgfw.com
+DOMAIN-SUFFIX,hxyc.com.cn
+DOMAIN-SUFFIX,eis.hxyc.com.cn
+DOMAIN-SUFFIX,weixin.hxyc.com.cn
+DOMAIN-SUFFIX,mall.hxyc.com.cn
+DOMAIN-SUFFIX,scm.zghxsjy.com
+DOMAIN-SUFFIX,datareport.zghxsjy.com
+DOMAIN-SUFFIX,archives.zghxsjy.com
+DOMAIN-SUFFIX,pms.zghxsjy.com
+DOMAIN-SUFFIX,fssc.zghxsjy.com
+DOMAIN-SUFFIX,zghxsjy.com
+DOMAIN-SUFFIX,zhgd.zghxsjy.com
+DOMAIN-SUFFIX,contract.zghxsjy.com
 
 
 # 360

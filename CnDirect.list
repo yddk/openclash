@@ -25,6 +25,11 @@ IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
 
 
+# google
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+
+
 # mxvod
 DOMAIN-SUFFIX,mxvod.com
 

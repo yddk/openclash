@@ -29,6 +29,11 @@ IP-CIDR,114.114.115.115/32,no-resolve
 DOMAIN-SUFFIX,mxvod.com
 
 
+# shuiwu
+DOMAIN-SUFFIX,nuevo.scjinsui.com
+DOMAIN-SUFFIX,scjinsui.com
+
+
 # yuncai
 DOMAIN-SUFFIX,login.tfygcgfw.com
 DOMAIN-SUFFIX,scnyw.tfygcgfw.com

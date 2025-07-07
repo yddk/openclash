@@ -35,6 +35,9 @@ DOMAIN-SUFFIX,scjinsui.com
 
 # nongshang
 DOMAIN-SUFFIX,cdrcb.llschain.com
+DOMAIN-SUFFIX,lls-comment.llschain.com
+DOMAIN-SUFFIX,lls-data-acquisition.llschain.com
+DOMAIN-SUFFIX,sso-web.llschain.com
 
 # yuncai
 DOMAIN-SUFFIX,login.tfygcgfw.com

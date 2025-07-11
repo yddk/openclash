@@ -38,6 +38,9 @@ DOMAIN-SUFFIX,cdrcb.llschain.com
 DOMAIN-SUFFIX,lls-comment.llschain.com
 DOMAIN-SUFFIX,lls-data-acquisition.llschain.com
 DOMAIN-SUFFIX,sso-web.llschain.com
+DOMAIN-SUFFIX,afms.cdrcbank.com
+DOMAIN-SUFFIX,ebank.cdrcbank.com
+
 
 # yuncai
 DOMAIN-SUFFIX,login.tfygcgfw.com

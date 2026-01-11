@@ -36,3 +36,7 @@ IP-CIDR,208.67.220.220/32,no-resolve
 # renzhe
 DOMAIN-SUFFIX,renzhe.cloud
 DOMAIN-SUFFIX,rou.video
+
+# iyf
+DOMAIN-SUFFIX,iyf.tv
+DOMAIN-KEYWORD,iyf
